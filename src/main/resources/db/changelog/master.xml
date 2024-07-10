@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <include file="db/changelog/202407101220_create_table_school.xml"/>
+    <include file="db/changelog/202407101231_insert_table.xml" />
+    <include file="db/changelog/202407101325_update_table_school.xml"/>
+    <include file="db/changelog/202407101511_create_table_student.xml" />
+    <include file="db/changelog/2024071041430_fk_student.xml"/>
+</databaseChangeLog>
