@@ -4,6 +4,6 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
     <changeSet id="7" author="management">
-        <dropColumn tableName="school_info" />
+        <dropColumn tableName="school_info" columnName="school_info" />
     </changeSet>
 </databaseChangeLog>
